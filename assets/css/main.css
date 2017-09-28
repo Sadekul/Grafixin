@@ -1,27 +1,110 @@
-#banner-bg{
-    background-image: url('../Images/banner.jpg');
-    max-width: 1920px;
-    min-height: 1180px;
-    background-repeat: no-repeat;
-    position: relative;
-}
-#banner-bg img{
-    position: absolute;
-}
-.main-logo{
-    margin-top: 10px;
-}
-.logo-text{
-    position: absolute;
-    margin-left: 105px;
-    margin-top: 85px;
-}
-.bg-logo-left{
-    margin-top: 180px;
-    margin-left: 0px;
+
+/*Font*/
+@font-face {
+    font-family: 'khmer_sangam_mnregular';
+    src: url('../fonts/khmer_sangam_mn-webfont.woff2') format('woff2'),
+         url('../fonts/khmer_sangam_mn-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-.bg-logo-right img{
-   float:right;
+@font-face {
+    font-family: 'arial_rounded_mt_boldbold';
+    src: url('../fonts/arlrdbd-webfont.woff2') format('woff2'),
+         url('../fonts/arlrdbd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Start View port*/
+#main-bg{
+    background-image: url(../Images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.left-g{
+    background-image: url(../Images/bg-logo-12%25.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -260px;
+    top: 172px;
+    height: 726px;
+    width: 560px;
     
+}
+.right-g{
+    background-image: url(../images/bg-logo-40%.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: -270px;
+    height: 100vh;
+    width: 927px;
+    top: 0px;
+}
+
+/*logo section*/
+.logo{
+    display: inline-block;
+    margin-left: -10px;
+    margin-top: 20px;
+}
+.logo span{
+    font-size: 48px;
+    color: #0e7070;
+    font-family: 'khmer_sangam_mnregular';
+}
+
+/*menu*/
+.main-menu{
+    float: right;
+}
+.main-menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 60px;
+    padding-left: 4px;
+}
+.main-menu ul li a{
+    text-decoration: none;
+    color: #0e7070;
+    padding:8px 8px 8px 8px;
+}
+.main-menu ul li a:hover{
+    border: 1px solid #39B54A;
+    border-radius: 13px;
+    padding:7px 7px 7px 7px;
+}
+
+/*viewport-text*/
+.viewport-text{
+    position:absolute;
+    padding-top: 35vh;
+}
+.viewport-text h1{
+    font-family: 'Khmer_sangam_mnregular';
+    font-size: 48px;
+    color: #04805c;
+    letter-spacing: -2px;
+    float: left;
+    padding-right: 60px;
+}
+.viewport-text h1.deep-bold{
+    color: #0e7070;
+    font-weight: bold;
+    float: right;
+    padding-right: 240px;
+    margin-bottom: 15px;
+    font-family: 'arial_rounded_mt_boldbold';
 }
