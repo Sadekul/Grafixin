@@ -108,3 +108,255 @@
     margin-bottom: 15px;
     font-family: 'arial_rounded_mt_boldbold';
 }
+/*End Viewport*/
+
+/*Start Our Story section*/
+
+#our-story{
+    margin-top: 73px;
+/*    width: 1920px;*/
+}
+.story-left .container{  
+/*    overflow: hidden;*/
+}
+.story-left{
+    background-color: #E8FBEF;
+    background-image: url(../Images/storyG.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    padding-top:
+}
+
+.story-text h3{
+    padding-top: 45px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #187372;
+    font-family: 'Khmer_sangam_mnregular';
+}
+/*
+.story-text p{
+    padding-right: 10px;
+}
+*/
+
+.story-pc{
+}
+
+/*What we do section*/
+#what-we-do{
+    background-image: url(../Images/we-doG.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.services-box-bg-null h3{
+    float: right;
+    padding-top: 100px;
+    color: #0E7070;
+    font-size: 30px;
+    font-family: 'arial_rounded_mt_boldbold';
+}
+.services-box-bg-null h4{
+    float: right;
+    color: #0E7070;
+    font-size: 24px;
+    font-family: 'Khmer_sangam_mnregular';
+}
+
+.services-box-top{
+    padding-top: 60px;
+}
+
+.services-box-bottom{
+    padding-top: 30px;
+}
+.services-box{
+    background-color: #F8F8F8;
+    padding: 10px;
+}
+.services-box:hover{
+    background-color: #ABE6C4;
+    transition: .5s;
+}
+.services-icon{
+    padding-top: 35px;
+    padding-left: 40%;
+    padding-bottom: 20px;
+}
+
+.services-box h4{
+    text-align: center;
+    font-family: 'Khmer_sangam_mnregular';
+}
+.services-box p{
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Khmer_sangam_mnregular';
+}
+.services-box h6{
+    text-align: center;
+    color: #0E7070;
+    padding-bottom: 30px;
+    font-family: 'Khmer_sangam_mnregular';
+}
+.services-box h6 a{
+    text-decoration: none;
+    color: #0E7070;
+}
+/*End What we do section*/
+
+/*Start Our Client section*/
+#our-client-heading{
+    background-image: url(../Images/clintG.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.client-heading h1{
+    padding-top: 70px;
+    padding-bottom:50px;
+    color: #519393;
+    font-family: 'arial_rounded_mt_boldbold';
+}
+.client-heading p{
+    color: black;
+    font-size: 15px;
+    padding-bottom: 75px;
+    margin-bottom: 0px;
+    font-family: 'Khmer_sangam_mnregular';
+}
+
+.client-box-border{
+    border: 1px solid #4A9494;
+    width: 100%;
+    height: 200px;
+}
+.client-box-border img{
+    position: relative;
+    top: 50%;
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+    
+}
+.our-client-logo-bottom{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+/*End our client section*/
+
+/*Start footer section*/
+
+#footer-top{
+    background-color: #ABE6C4;
+    padding-bottom: 120px;
+}
+
+.footer-top h1{
+    padding-top: 30px;
+    font-family: 'Khmer_sangam_mnregular';
+    padding-bottom: 55px;
+}
+.footer-top p{
+    font-size: 15px;
+    font-family: 'Khmer_sangam_mnregular';
+    margin-bottom: 0px;
+    padding-bottom: 45px;
+}
+
+.footer-form{
+    
+}
+.form-input{
+    width: 570px;
+    height: 50px;
+    border-radius: 0px;
+    margin-right: 10px;
+    background-color: #E8FBEF;
+}
+.footer-btn{
+    border-radius: 0px;
+    background: none;
+    padding: 12px 25px;
+    color: #0E7070;
+    font-size: 18px;
+/*    font-family: 'Khmer_sangam_mnregular';*/
+}
+.footer-btn:hover{
+    border: 1px solid #0E7070;
+    transition: .5s;
+    background: none;
+}
+
+#footer-bottom{
+    background-color: #E8FBEF;
+    background-image: url(../Images/footerG.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding-top: 110px;
+    padding-bottom: 210px;
+}
+.footer-logo img{
+    padding-bottom: 15px;
+}
+.footer-logo h6{
+    color: #5C9E99;
+    line-height: 20px;
+    font-family: 'Khmer_sangam_mnregular';
+}
+
+.footer-menu{
+    padding-top: 20px;
+    display: block;
+}
+.footer-menu ul li{
+    display: inline-block;
+    padding-left: 10px;
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: #629A96;
+    font-family: 'Khmer_sangam_mnregular';
+}
+.footer-menu ul li a:hover{
+    color: #63C60C;
+}
+
+.footer-social-logo{
+    padding-top: 15px;
+}
+.footer-social-logo ul {
+	overflow: auto;
+}
+
+.footer-social-logo ul li {
+	list-style-type: none;
+	float: left;
+}
+
+.footer-social-logo ul li a i {
+	background: #0E7070;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 15%;
+}
+.footer-social-logo ul li a i:hover{
+    background-color: #ABE6C4;
+    color: #0E7070;
+    transition: .5s;
+}
+
+.footer-social-logo p{
+    color: #68A4A0;
+    padding-left: 45px;
+    font-size: 14px;
+}
+/*End Footer Section*/
+
